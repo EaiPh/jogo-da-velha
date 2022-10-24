@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <script src="./scripts/game.js" defer></script>
+   <script src="./scripts/interface.js" defer></script>
+   
+   <title>Jogo da velha</title>
+   <meta name="description" content="" />
+</head>
+<body>
+   <h1>Jogo da Velha</h1>
+   <div id="tabuleiro">
+      <ul>
+         <li id="0" class="quadrante"></li>
+         <li id="1" class="quadrante"></li>
+         <li id="2" class="quadrante"></li>
+         <li id="3" class="quadrante"></li>
+         <li id="4" class="quadrante"></li>
+         <li id="5" class="quadrante"></li>
+         <li id="6" class="quadrante"></li>
+         <li id="7" class="quadrante"></li>
+         <li id="8" class="quadrante"></li>
+      </ul>
+   </div>
+   
+   <div id="gameOver">
+      <div>Parabéns, você venceu!</div>
+      <button id="playAgainButton" onclick="playAgain()">jogar novamente</button>
+   </div>
+</body>
+</html>

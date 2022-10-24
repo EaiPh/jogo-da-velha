@@ -1,0 +1,72 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   text-align: center;
+   color: white;
+   background-color: blueviolet;
+}
+
+h1 {
+   padding: 1em;
+}
+
+#tabuleiro {
+   width: 23em;
+   height: 23em;
+   margin: auto;
+   margin-top: 5em;
+   padding: 25px;
+   background-color: midnightblue;
+}
+
+ul {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+li {
+   width: 6em;
+   height: 6em;
+   color: black;
+   margin: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   list-style: none;
+   background-color: white;
+}
+
+li img {
+   width: 80px;
+   height: 80px;
+}
+
+#gameOver {
+   width: 100vw;
+   height: 100%;
+   display: none;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 0;
+   background-color: rgba(0, 0, 0, .5);
+}
+
+#gameOver div {
+   font-size: 2rem;
+}
+
+#playAgainButton {
+   width: 200px;
+   height: 50px;
+   color: #fff;
+   margin: 30px;
+   border: none;
+   border-radius: 10px;
+   background-color: #ff2121;
+}
