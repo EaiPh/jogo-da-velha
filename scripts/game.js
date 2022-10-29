@@ -16,7 +16,7 @@ const waysToWin= [
 
 function addSymbolX(element) {
    if (positions[element.id] == '') {
-      element.innerHTML= "<img src='images/player0.png'/>"
+      element.innerHTML= "<img src='imagens/player0.png'/>"
       positions[element.id]= 'x'
       player.player1= true
    }
@@ -28,7 +28,7 @@ function addSymbolX(element) {
 function addSymbolO(element) {
    
    if (positions[element.id] == '') {
-      element.innerHTML= "<img src='images/player1.png'/>"
+      element.innerHTML= "<img src='imagens/player1.png'/>"
       positions[element.id]= 'o'
       player.player1= false
    }
